@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { TaskBoard } from "@/components/TaskBoard";
 
 export const Route = createFileRoute("/")({
+  ssr: false,
   head: () => ({
     meta: [
       { title: "Flow — Task Manager" },

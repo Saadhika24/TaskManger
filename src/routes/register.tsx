@@ -9,6 +9,7 @@ import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/register")({
+  ssr: false,
   head: () => ({ meta: [{ title: "Create account — Flow" }] }),
   component: RegisterPage,
 });

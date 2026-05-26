@@ -9,6 +9,7 @@ import { Loader2 } from "lucide-react";
 import { toast } from "sonner";
 
 export const Route = createFileRoute("/login")({
+  ssr: false,
   head: () => ({ meta: [{ title: "Sign in — Flow" }] }),
   component: LoginPage,
 });
