@@ -74,14 +74,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Task Manger" },
+      { name: "description", content: "Stage Flow Task Manager lets users organize tasks across three distinct stages: To Do, In Progress, and Done." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Task Manger" },
+      { property: "og:description", content: "Stage Flow Task Manager lets users organize tasks across three distinct stages: To Do, In Progress, and Done." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Task Manger" },
+      { name: "twitter:description", content: "Stage Flow Task Manager lets users organize tasks across three distinct stages: To Do, In Progress, and Done." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0cdffb54-ec0a-437b-8b66-6c80014cd6aa/id-preview-1e0b7498--7da2fab7-30cc-44e8-8a7a-0d286f3622b5.lovable.app-1779805628314.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0cdffb54-ec0a-437b-8b66-6c80014cd6aa/id-preview-1e0b7498--7da2fab7-30cc-44e8-8a7a-0d286f3622b5.lovable.app-1779805628314.png" },
     ],
     links: [
       {
