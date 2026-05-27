@@ -69,4 +69,3 @@ No separate backend server deployed. Backend services are handled via Supabase i
 
 ## 👩‍💻 Author
 Saadhika Kodati Y  
-GitHub: https://github.com/Saadhika24
